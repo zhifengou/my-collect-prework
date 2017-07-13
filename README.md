@@ -39,7 +39,7 @@ What if your method was being invoked with a totally different collection and a 
 ```ruby
 collection = ['ruby', 'javascript', 'python', 'objective-c']
 my_collect(collection) do |lang|
-  lang.uppercase
+  lang.upcase
 end
 
 # => ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]
