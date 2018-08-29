@@ -21,7 +21,7 @@ def my_collect(arr)
     i=0 
     newArr=[]
   while i<arr.size 
-    newArr.push(yield arr[i].upcase)
+    newArr.push(yield arr[i].split(" ").first)
     i+=1
   end 
   return newArr
